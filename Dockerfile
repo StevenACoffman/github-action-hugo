@@ -9,9 +9,7 @@ LABEL "homepage"="https://github.com/chris-short"
 LABEL "maintainer"="Chris Short <chris@chrisshort.net>"
 
 RUN set -x \
-      && rm -rf public || exit 0 \
-      && git submodule sync --recursive \
-      && git submodule update --init --recursive
+      && rm -rf public || exit 0
 
 ENTRYPOINT [ "hugo" ]
 CMD [ "--help" ]
