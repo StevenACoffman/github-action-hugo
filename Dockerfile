@@ -1,6 +1,6 @@
 FROM quay.io/chrisshort/hugo:latest
 
-LABEL "com.github.actions.name"="Hugo"
+LABEL "com.github.actions.name"="Trusted Hugo"
 LABEL "com.github.actions.description"="Provides an update to date container running latest version of hugo"
 LABEL "com.github.actions.icon"="code"
 LABEL "com.github.actions.color"="orange"
